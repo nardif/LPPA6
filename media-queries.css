@@ -1,0 +1,29 @@
+@media screen and (max-width: 600px) {
+    main{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .primary-navigation{
+        display: none;
+    }
+}
+  
+  @media screen and (min-width: 601px) {
+    #left-section{
+        float: left;
+        width: 50%;
+    }
+    #middle-section{
+        float: right;
+        width: 50%;
+    }
+    #hamburger{
+        display: none;
+    }
+  }
+  
+  @media screen and (min-width: 992px) {
+    #hamburger{
+        display: none;
+    }
+  }

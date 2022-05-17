@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Clase 6 Problemática Semanal Fornm</title>
+      <!--FONT AWESOME ICONS-->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
+      <link rel="stylesheet" href="formStyles.css">
+      <link rel="stylesheet" href="media-queries.css">
+  </head>
+  <body>
+      <header>
+          <h1>Newspaper</h1>
+      </header>
+      <nav class="primary-nav flex">
+          <ul id="primary-navigation" class="primary-navigation flex">
+              <li class="active">
+                  <a href="/index.html">Home</a>
+              </li>
+              <li>
+                  <a href="#">Category 1</a>
+              </li>
+              <li>
+                  <a href="#">Category 2</a>
+              </li>
+              <li>
+                  <a href="#">Category 3</a>
+              </li>
+              <li>
+                  <a href="/formSubs.html">Suscribe</a>
+              </li>
+          </ul>
+      </nav>
+      <h1>Subscription form:</h1>
+    <form>
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name" minlength="1" maxlength="15" required><br>
+        <label for="lastname">Lastname:</label><br>
+        <input type="text" id="lastname" name="lastname" minlength="1" maxlength="15"><br>
+        <label for="email">Email:</label><br> 
+        <input type="email" id="email" name="email" required><br>
+        <label for="password">Password:</label><br>
+        <input type="text" id="password" name="password" minlength="8" required><br>
+
+        <br>
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset">
+    </form>
+    </body>
+</html>
